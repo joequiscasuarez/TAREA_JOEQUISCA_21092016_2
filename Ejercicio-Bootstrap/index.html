@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap: Grid System</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
+    <!-- ADVERTENCIA: Respond.js no soporta que ejecutes tu código via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->	
+</head>
+<body>
+
+
+
+
+
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="logo">
+            <h1><a href="#">Site name</a></h1>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#"><span class="glyphicon glyphicon-home"></span>Noticias</a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-home"></span>Enlaces RSS</a></li>
+              <li class="border">|<li>
+              <li><a href="#"><input type="text" class="form-control" placeholder="Ingresa tu busqueda"></a></li>
+              <li><a href="#"><button type="submit" class="btn btn-default">Buscar</button></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+
+<main>
+    <section class="nav-bottom">
+      <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Desplegar navegación</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+               <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#">Bienvenido</a></li>
+              <li><a href="#">Actualidades</a></li>
+              <li><a href="#">En directo</a></li>
+              <li><a href="#">Reporte financiero</a></li>
+              <li><a href="#">Nuestra oferta</a></li>
+              <li><a href="#">De nosotros a usted</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+<section class="main-info">
+      <div class="container">
+        <div class="row">
+          <div class="info-1">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+              <div class="info-1-1">
+                <span class="label label-default">Historia destacada</span>
+                <h4>Artículo | <small>publicado el 09/10/15</small></h4>
+                <h2>Lorem ipsum et diligat gentris</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis, ex a tristique dignissim, risus eros euismod felis, sagittis porta sapien sapien ut libero. Praesent eu dolor ligula. Ut eget mi ac diam varius venenatis non sit amet libero. Nam et laoreet nibh.</p>
+                <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                <a href="#"><span class="glyphicon glyphicon-pushpin"></span> Etiquetas: <small>lorem ipsum diligat</small></a>
+              </div>
+              <div class="info-1-2">
+                <span class="label label-default">Webzone</span>
+                <h4>Preguntas | <small>publicado el 09/10/15</small></h4>
+                <h2>Lorem ipsum et diligat gentris</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis, ex a tristique dignissim, risus eros euismod felis, sagittis porta sapien sapien ut libero. Praesent eu dolor ligula. Ut eget mi ac diam varius venenatis non sit amet libero. Nam et laoreet nibh.</p>
+                <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                <a href="#"><span class="glyphicon glyphicon-pushpin"></span> Etiquetas: <small>lorem ipsum diligat</small></a>
+              </div>
+              <div class="info-1-3">
+                <h4>Artículo | <small>publicado el 09/10/15</small></h4>
+                <h2>Lorem ipsum et diligat gentris</h2>
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="img/img-1.jpg" alt="...">
+                      <div class="carousel-caption">                        
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/img-2.jpg" alt="...">
+                      <div class="carousel-caption">              
+                      </div>
+                    </div>
+                    <div class="item">
+                      <img src="img/img-3.jpg" alt="...">
+                      <div class="carousel-caption">              
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Controls -->
+                  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis, ex a tristique dignissim, risus eros euismod felis, sagittis porta sapien sapien ut libero. Praesent eu dolor ligula. Ut eget mi ac diam varius venenatis non sit amet libero. Nam et laoreet nibh.</p>
+                <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                <a href="#"><span class="glyphicon glyphicon-pushpin"></span> Etiquetas: <small>lorem ipsum diligat</small></a>
+              </div>
+              <div class="info-1-4">
+                <h2>Lorem ipsum et diligat gentris</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis, ex a tristique dignissim, risus eros euismod felis, sagittis porta sapien sapien ut libero. Praesent eu dolor ligula. Ut eget mi ac diam varius venenatis non sit amet libero. Nam et laoreet nibh.</p>
+                <a href="#"><span class="glyphicon glyphicon-bookmark"></span> Ver más...</a>
+                <a href="#"><span class="glyphicon glyphicon-pushpin"></span> Etiquetas: <small>lorem ipsum diligat</small></a>
+              </div>
+            </div>
+          </div>
+          <div class="info-2">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <div class="info-2-1">
+                <span class="label label-default">Historia destacada</span>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HaKWEc-XacI"></iframe>
+                </div>
+                <h2>Clair Dupond</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mollis, ex a tristique dignissim, risus eros euismod felis, sagittis porta sapien sapien ut.</p>
+                <small>publicado el 09/10/15</small>
+                 <a href="#"><span class="glyphicon glyphicon-bookmark"></span>Ver más...</a>
+              </div>
+              <div class="info-2-2">
+                <span class="label label-default">Agenda</span>
+                  <div class="fecha row">
+                    <div class="col-lg-12 col-md-12 info-2-2-alto">
+                      <div class="dia">
+                        <p>23<br>Enero</p>
+                      </div>
+                      <div class="info-fecha">
+                        <h3>Lorem ipsum et diligat</h3>
+                        <p>Lorem ipsum sit amet. consectetur adipiscing elit.<br> De 23 a 28 Diciembre 2015</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 info-2-2-alto">
+                      <div class="dia">
+                        <p>23<br>Enero</p>
+                      </div>
+                      <div class="info-fecha">
+                        <h3>Lorem ipsum et diligat</h3>
+                        <p>Lorem ipsum sit amet. consectetur adipiscing elit.<br> De 23 a 28 Diciembre 2015</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 info-2-2-alto">
+                      <div class="dia">
+                        <p>23<br>Enero</p>
+                      </div>
+                      <div class="info-fecha">
+                        <h3>Lorem ipsum et diligat</h3>
+                        <p>Lorem ipsum sit amet. consectetur adipiscing elit.<br> De 23 a 28 Diciembre 2015</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 info-2-2-alto">
+                      <div class="dia">
+                        <p>23<br>Enero</p>
+                      </div>
+                      <div class="info-fecha">
+                        <h3>Lorem ipsum et diligat</h3>
+                        <p>Lorem ipsum sit amet. consectetur adipiscing elit.<br> De 23 a 28 Diciembre 2015</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="info-2-3">
+                <h3 class="mas-in">Más información</h3>
+                <div class="info-foote">
+                  <small><a href="#">Localidades</a></small>
+                  <h3>Lorem ipsum et diligat</h3>
+                  <p>Lorem ipsum sit amet. consectetur adipiscing elit.</p>
+                </div>
+                <div class="info-foote">
+                  <small><a href="#">Localidades</a></small>
+                  <h3>Lorem ipsum et diligat</h3>
+                  <p>Lorem ipsum sit amet. consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="info-3">
+            <div class="col-lg-3 col-md-3 col-sm-3">
+              <div class="info-3-1">
+                <h3 class="mas-in">Más información</h3>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Finanzas y fiscalización</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Inversión y equipos</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Medio ambiente</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Habitat / Urbanisno</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Sanidad</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Social / Servicios</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Trasporte</a></li>
+              </div>
+              <div class="info-3-2">
+                <h3>MAGAZINE<br><span>ECODEFI</span></h3>
+                <p>ENQUETE</p>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</small>
+                <p>PREGUNTAS</p>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
+              </div>
+              <div class="info-3-2">
+                <h3>MAGAZINE<br><span>ACCIONES COMUNES</span></h3>
+                <p>ENQUETE</p>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</small>
+                <p>PREGUNTAS</p>
+                <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</small>
+              </div>
+              <div class="info-3-2">
+                <p><a href="#">Nueva generación de la internet</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+<footer>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="info-footer">
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alto-footer">
+                <h4>Rubros</h4>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Actualidades</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> En directo</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Reporte financiero</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Nuestra oferta</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> De Nosotros a ustedes</a></li>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alto-footer">
+                <h4>Suscripción</h4>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Todo el flujo</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Flujo RSS para expertos</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Noticias</a></li>
+                
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alto-footer">
+                <h4>Nosotros</h4>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> ¿Quienes somos?</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Plan de sitio</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Información legal</a></li>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 alto-footer">
+                <h4>Contacto</h4>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Contactanos</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> FAQ</a></li>
+                <li><span class="glyphicon glyphicon-bookmark"></span><a href="#"> Haga sus preguntas</a></li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    
+</body>
+</html>
